@@ -15,12 +15,16 @@ def main():
     data = data.Data(df1, df2, num)
     
     orch1(data)
-    print(data)
+    print(data.num)
+    print(data.df1)
+    print(data.df2)
 
     data2 = data.Data(df1, df2, num)
 
     orch2(data2)
-    print(data2)
+    print(data.num)
+    print(data.df1)
+    print(data.df2)
     
 if __name__ == '__main__':
     main();
